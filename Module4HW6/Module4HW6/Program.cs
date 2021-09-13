@@ -6,7 +6,10 @@ namespace Module4HW6
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var start = new StartApp();
+            start.FirstTask();
+            start.SecondTaks();
+            start.ThirdTaks();
         }
     }
 }
